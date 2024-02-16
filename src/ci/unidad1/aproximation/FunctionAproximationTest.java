@@ -11,7 +11,7 @@ package ci.unidad1.aproximation;
 
 public class FunctionAproximationTest {
     public static void main(String[] args) {
-        FunctionAproximation fa = new FunctionAproximation(0.0, 4.0, 4);
+        FunctionAproximation fa = new FunctionAproximation(1, 3, 10);
         
         fa.compute();
         System.out.println("area: " + fa.getArea());

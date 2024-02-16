@@ -35,7 +35,8 @@ public class FunctionAproximation {
             x[i] = xIni + i*dx;
             
             //fx[i] = x[i] * x[i];
-            fx[i] = x[i] * x[i];
+            //fx[i] = x[i] * x[i];
+            fx[i] = 1/x[i];
             area = area + fx[i] * dx;
         }
     }
