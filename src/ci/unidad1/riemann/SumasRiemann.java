@@ -15,7 +15,7 @@ public class SumasRiemann {
     protected double dx[];
     protected double fw[];
     protected double suma;
-
+    
     public SumasRiemann(double[] x, double[] w) {
         this.x = x;
         this.w = w;
